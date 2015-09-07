@@ -10,7 +10,6 @@ var main = function() {
     }, 200);
   });
 
-
   $('.icon-close').click(function() {
     $('.menu').animate({
       left: "-285px"

@@ -1,13 +1,17 @@
 body,  p {
-height:100%;
 font-family: 'Open Sans', sans-serif;
 font-weight: 400;
 color: #555555;
 -webkit-font-smoothing: antialiased;
-left: 0;
-margin: 0;
-overflow: hidden;
+overflow-x:hidden;
 position: relative;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #555555;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,13 +22,17 @@ color: #474747;
 }
 
 #menu{
-  background: black;
+/*overflow: hidden;
+    background: black;*/
 }
+.menu {
+  overflow: hidden;
+  height: 100%; }
 
 
 #hero {
 width:100%;
-height:100vh;
+height: 100vh;
 background-image: linear-gradient(135deg, rgba(217, 36, 44,0.6) 0%,rgba(52, 152, 219,0.8) 100%), url("../img/bg2.jpg");
 background-repeat: no-repeat;
 background-position: center center;
@@ -41,10 +49,6 @@ padding-bottom: 30px;
 
 .logo {
   margin-top: 60px;
-}
-
-.logo:hover {
-  cursor: pointer;
 }
 
 .title{
@@ -136,9 +140,7 @@ transition: all 0.2s ease-in-out;
 .icon-menu i {
   margin-right: 5px;
 }
-body {
-  background: gray;
-}
+
 
 .menu1 {
   /*width: 40px;*/
@@ -193,19 +195,31 @@ body {
   margin: 0 0 5px;
   background: #fff;
 }
-
-
-
-
 /*end section hero
 begin section boxes
 */
+.p20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-#boxes{
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#catering{
+list-style: none;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.catering{
+list-style: none;
 
 }
 
-.foodmenu{
-  height: 100%;
-  width: 100%;
+#options{
+
 }

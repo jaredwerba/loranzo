@@ -1185,8 +1185,8 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
+  /*font-weight: 500;*/
+  /*line-height: 1.1;*/
   color: inherit;
 }
 h1 small,
@@ -4052,7 +4052,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eee;
-  border-color: #337ab7;
+  border-color: #3498db;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4187,7 +4187,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
-  border: 1px solid #ddd;
+  border: 1px solid #3498db;
 }
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a {

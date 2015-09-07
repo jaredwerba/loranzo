@@ -1,7 +1,4 @@
-body,  p {
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-color: #555555;
+body, p{
 -webkit-font-smoothing: antialiased;
 overflow-x:hidden;
 position: relative;
@@ -15,7 +12,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 -webkit-font-smoothing: antialiased;
 color: #474747;
@@ -61,6 +58,17 @@ margin-bottom: 60px;
 text-transform: uppercase;
 padding:5px;
 }
+
+.title-dark{
+  color: #474747;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding:5px;
+}
+
+
+
 
 .btn-slides {
 color: #ffffff;
@@ -211,13 +219,10 @@ begin section boxes
 
 #catering{
 list-style: none;
-margin-top: 20px;
-margin-bottom: 40px;
 }
 
 .catering{
 list-style: none;
-
 }
 
 #options{

@@ -5,10 +5,10 @@ position: relative;
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  color: #555555;
-  -webkit-font-smoothing: antialiased;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+color: #555555;
+-webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,12 +19,35 @@ color: #474747;
 }
 
 #menu{
-/*overflow: hidden;
-    background: black;*/
+
 }
+
+#options {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#who {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#about {
+  padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#catering {
+  padding-top: 20px;
+list-style: none;
+padding-bottom: 20px;
+}
+
+
 .menu {
-  overflow: hidden;
-  height: 100%; }
+overflow: hidden;
+height: 100%;
+}
 
 
 #hero {
@@ -39,7 +62,7 @@ background-attachment: scroll; /* fix for an iOS bug not showing the image with 
 background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-padding-bottom: 30px;
+padding-bottom: 20px;
 }
 
 .bg2 {
@@ -71,9 +94,6 @@ padding:5px;
   letter-spacing: 2px;
 }
 
-
-
-
 .btn-slides {
 color: #ffffff;
 background-color: #3498db;
@@ -97,8 +117,6 @@ box-shadow: none;
 transition: all 0.2s ease-in-out;
 }
 
-
-
 /* Initial menu */
 .menu {
   margin-top: 0;
@@ -107,9 +125,7 @@ transition: all 0.2s ease-in-out;
   position: fixed;
   width: 285px;
 }
-
 /* Basic styling */
-
 .menu ul {
   border-top: 1px solid #636366;
   list-style: none;
@@ -152,7 +168,6 @@ transition: all 0.2s ease-in-out;
 .icon-menu i {
   margin-right: 5px;
 }
-
 
 .menu1 {
   /*width: 40px;*/
@@ -217,26 +232,14 @@ begin section boxes
 
 #owl-demo .item img{
   -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+  filter: grayscale(100%);
     display: block;
     width: 100%;
     height: auto;
 }
 
-#catering{
-list-style: none;
-}
-
 .catering{
 list-style: none;
-}
-
-#options{
-
-}
-
-#who{
-  padding: 20px;
 }
 
 .who{

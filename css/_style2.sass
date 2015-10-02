@@ -3,6 +3,8 @@ $primary-light: #C9D6DF
 $primary-dark: #222831
 $primary-darker: #1E2022
 $accent: #00adb5
+$text-grey: #555555
+
 
 .primary-color
   color: $primary-color
@@ -16,6 +18,7 @@ $accent: #00adb5
 .accent
   color: $accent
 
+
 body
   -webkit-font-smoothing: antialiased
   overflow-x: hidden
@@ -27,14 +30,16 @@ p
   position: relative
   font-family: 'Open Sans', sans-serif
   font-weight: 400
-  color: #555555
+  color: $text-grey
   -webkit-font-smoothing: antialiased
+  font-size: 24px
 
 h1, h2, h3, h4, h5, h6
   font-family: 'Open Sans', sans-serif
   font-weight: 300
   -webkit-font-smoothing: antialiased
-  color: #474747
+  color: $text-grey
+  font-size: 50px
 
 #menu
 

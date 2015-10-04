@@ -41,8 +41,6 @@ h1, h2, h3, h4, h5, h6
   color: $text-grey
   font-size: 50px
 
-#menu
-
 #about
   background-color: $primary-dark
   padding-top: 20px
@@ -70,9 +68,9 @@ h1, h2, h3, h4, h5, h6
   background-repeat: no-repeat
   background-position: center center
   background-attachment: scroll
-  /* fix for an iOS bug not showing the image with fixed
+  /* fix for an iOS bug not showing the image with fixed*/
   background-attachment: fixed
-  /* fix for an iOS bug not showing the image with fixed
+  /* fix for an iOS bug not showing the image with fixed*/
   background-size: cover
   -moz-background-size: cover
   -o-background-size: cover
@@ -263,14 +261,19 @@ h1, h2, h3, h4, h5, h6
   margin-top: 10px
   padding-top: 10px
 
-@media (max-width: 768px)
+@media (max-width: 767px)
   #hero
     height: 80vh
   p
     font-size: 20px
   .logo
     height: 200px
-
   .title
     font-size: 40px
-
+  .all-natural
+    font-size: 39px
+  .season
+    background-color: $primary-dark
+@media (max-width: 767px)
+  .menu-tabs > li
+    display-float: none

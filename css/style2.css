@@ -255,6 +255,9 @@ h1, h2, h3, h4, h5, h6 {
   p {
     font-size: 20px; }
 
+  .ourfood {
+    font-size: 50px; }
+
   .logo {
     height: 200px; }
 
@@ -264,10 +267,11 @@ h1, h2, h3, h4, h5, h6 {
   .all-natural {
     font-size: 39px; }
 
-  .season {
-    background-color: #222831; } }
-@media (max-width: 767px) {
-  .menu-tabs > li {
-    display-float: none; } }
+  .seasonal-menu {
+    font-size: 30px; }
+
+  .menutab {
+    float: none;
+    width: 100%; } }
 
 /*# sourceMappingURL=style2.css.map */

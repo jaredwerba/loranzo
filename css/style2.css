@@ -268,10 +268,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 39px; }
 
   .seasonal-menu {
-    font-size: 30px; }
+    margin-top: 0;
+    font-size: 30px;
+    padding-top: 0;
+    padding-bottom: 0; }
 
-  .menutab {
-    float: none;
-    width: 100%; } }
+  #menu {
+    margin-top: 0;
+    background-color: #C9D6DF; }
+
+  .menu-tabs > li {
+    display-float: none;
+    width: 200px; } }
 
 /*# sourceMappingURL=style2.css.map */

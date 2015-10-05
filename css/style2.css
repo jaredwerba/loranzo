@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #C9D6DF; }
 
   .menu-tabs > li {
-    display-float: none;
-    width: 200px; } }
+    float: none;
+    width: 100%; } }
 
 /*# sourceMappingURL=style2.css.map */

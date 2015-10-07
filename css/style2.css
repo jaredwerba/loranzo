@@ -250,12 +250,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   #hero {
-    height: 80vh; }
+    height: 80vh;
+    transition: ease-in-out(0.2s); }
 
   p {
     font-size: 20px; }
 
   .ourfood {
+    transition: ease-in-out;
     font-size: 50px; }
 
   .logo {
@@ -278,7 +280,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #C9D6DF; }
 
   .menu-tabs > li {
+    -webkit-transition: width 2s;
+    transition: width 2s;
     float: none;
-    width: 100%; } }
+    width: 100%; }
+
+  #catering > ul {
+    list-style: none;
+    float: none; }
+
+  .catering > ul {
+    float: left; } }
 
 /*# sourceMappingURL=style2.css.map */
